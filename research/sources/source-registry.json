@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "audited_at_utc_date": "2026-09-30",
+  "coverage": "Bounded source reconnaissance, not complete housing inventory",
+  "unattended_ingestion_enabled": false,
+  "raw_captures_published": false,
+  "sources": [
+    {
+      "id": "mamikos",
+      "homepage": "https://mamikos.com/",
+      "verified_results_url": "https://mamikos.com/kost/kost-kebayoran-baru-jakarta-murah",
+      "technical_status": "Public hydrated room records and public detail pages verified",
+      "pagination_tested": true,
+      "scroll_tested_successfully": true,
+      "cards_fully_rendered": false,
+      "sample_records_audited": 3,
+      "sample_unique_buildings_known": 2,
+      "permission_status": "Terms route checkpointed; ongoing collection/republication not established",
+      "production_collection_enabled": false,
+      "risk_flags": ["first_month_promotions", "skeleton_card_ui", "room_type_vs_building_duplicates"]
+    },
+    {
+      "id": "pinhome",
+      "homepage": "https://www.pinhome.id/",
+      "verified_results_url": "https://www.pinhome.id/kost/kec-kebayoran-baru-1274",
+      "technical_status": "Visible public room-rental cards and details verified",
+      "pagination_tested": true,
+      "scroll_tested_successfully": true,
+      "sample_records_audited": 3,
+      "permission_status": "Limited personal/noncommercial use described; public aggregation needs review",
+      "production_collection_enabled": false,
+      "risk_flags": ["malformed_coordinate_tokens", "minimum_rent_commitment", "monthly_vs_annual"]
+    },
+    {
+      "id": "infokost",
+      "homepage": "https://infokost.id/",
+      "verified_results_url": "https://infokost.id/kost/jakarta-selatan",
+      "technical_status": "Public server-rendered lists and room details verified",
+      "pagination_tested": true,
+      "scroll_tested_successfully": null,
+      "sample_records_audited": 3,
+      "permission_status": "Inspected routes not disallowed by robots; reuse licence not established",
+      "production_collection_enabled": false,
+      "risk_flags": ["overlap_with_rukita", "related_links_are_not_search_result_counts"]
+    },
+    {
+      "id": "sewakost",
+      "homepage": "https://www.sewakost.com/",
+      "verified_results_url": "https://www.sewakost.com/kost/jakarta/jakarta-selatan/",
+      "technical_status": "Public server-rendered lists and independent-owner details verified",
+      "pagination_tested": true,
+      "scroll_tested_successfully": null,
+      "sample_records_audited": 3,
+      "crawl_delay_seconds": 10,
+      "permission_status": "Inspected routes not disallowed by robots; dedicated reuse terms unresolved",
+      "production_collection_enabled": false,
+      "risk_flags": ["missing_billing_period", "map_point_outside_advertised_area", "unverified_vacancy"]
+    },
+    {
+      "id": "papikost",
+      "homepage": "https://papikost.com/",
+      "terms_url": "https://papikost.com/syarat-ketentuan",
+      "technical_status": "Real priced homepage cards verified; tested Jakarta route had zero results",
+      "pagination_tested": false,
+      "scroll_tested_successfully": false,
+      "sample_records_audited": 3,
+      "permission_status": "Written authorization required for monitoring/copying; further retrieval stopped",
+      "production_collection_enabled": false,
+      "risk_flags": ["explicit_reuse_restriction", "no_verified_focused_jakarta_results"]
+    },
+    {
+      "id": "cove",
+      "homepage": "https://cove.id/",
+      "terms_url": "https://cove.id/terms-conditions",
+      "technical_status": "Public directory links and room-detail payloads verified",
+      "pagination_tested": false,
+      "scroll_tested_successfully": false,
+      "sample_records_audited": 3,
+      "permission_status": "Copying/redistribution restricted; seek permission or a licensed feed",
+      "production_collection_enabled": false,
+      "risk_flags": ["explicit_reuse_restriction", "advertised_vs_base_price", "source_reported_future_availability"]
+    }
+  ]
+}

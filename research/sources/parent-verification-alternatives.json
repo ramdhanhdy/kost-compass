@@ -1,0 +1,74 @@
+[
+  {
+    "source": "papikost",
+    "sample_id": "papikost-audit-sample-1",
+    "source_audited_at_utc": "2026-09-30T16:40:52.043254+00:00",
+    "capture_sha256": "2129a71df34234e9c7963989315e066c1af52e29307ea60ae1644a5b6a70f200",
+    "verification_mode": "local_capture_not_new_network_request",
+    "production_collection_enabled": false,
+    "report_updated_at_utc": "2026-09-30T18:00:43.412878+00:00",
+    "capture_sample_confirmed": true,
+    "verification_level": "public_card_link_in_cached_homepage",
+    "capture_kind": "homepage_card"
+  },
+  {
+    "source": "papikost",
+    "sample_id": "papikost-audit-sample-2",
+    "source_audited_at_utc": "2026-09-30T16:40:52.043254+00:00",
+    "capture_sha256": "2129a71df34234e9c7963989315e066c1af52e29307ea60ae1644a5b6a70f200",
+    "verification_mode": "local_capture_not_new_network_request",
+    "production_collection_enabled": false,
+    "report_updated_at_utc": "2026-09-30T18:00:43.412878+00:00",
+    "capture_sample_confirmed": true,
+    "verification_level": "public_card_link_in_cached_homepage",
+    "capture_kind": "homepage_card"
+  },
+  {
+    "source": "papikost",
+    "sample_id": "papikost-audit-sample-3",
+    "source_audited_at_utc": "2026-09-30T16:40:52.043254+00:00",
+    "capture_sha256": "2129a71df34234e9c7963989315e066c1af52e29307ea60ae1644a5b6a70f200",
+    "verification_mode": "local_capture_not_new_network_request",
+    "production_collection_enabled": false,
+    "report_updated_at_utc": "2026-09-30T18:00:43.412878+00:00",
+    "capture_sample_confirmed": true,
+    "verification_level": "public_card_link_in_cached_homepage",
+    "capture_kind": "homepage_card"
+  },
+  {
+    "source": "cove",
+    "sample_id": "cove-audit-sample-1",
+    "source_audited_at_utc": "2026-09-30T16:40:52.043254+00:00",
+    "capture_sha256": "a80302a3f6fa16819fbb25d64ea9e9434d19d9a3fba7d42ec342f59a69b70c39",
+    "verification_mode": "local_capture_not_new_network_request",
+    "production_collection_enabled": false,
+    "report_updated_at_utc": "2026-09-30T18:00:43.412878+00:00",
+    "capture_sample_confirmed": true,
+    "verification_level": "cached_detail_id_and_monthly_base_price",
+    "capture_kind": "room_detail"
+  },
+  {
+    "source": "cove",
+    "sample_id": "cove-audit-sample-2",
+    "source_audited_at_utc": "2026-09-30T16:40:52.043254+00:00",
+    "capture_sha256": "d3ad05cd6bc4601b048b767f750289aa8220b8344ad161b482fb973f9fc33e5f",
+    "verification_mode": "local_capture_not_new_network_request",
+    "production_collection_enabled": false,
+    "report_updated_at_utc": "2026-09-30T18:00:43.412878+00:00",
+    "capture_sample_confirmed": true,
+    "verification_level": "cached_detail_id_and_monthly_base_price",
+    "capture_kind": "room_detail"
+  },
+  {
+    "source": "cove",
+    "sample_id": "cove-audit-sample-3",
+    "source_audited_at_utc": "2026-09-30T16:40:52.043254+00:00",
+    "capture_sha256": "bc1c3b14ab191bc401961c824596e444a9ec9b4a7faaf9cb0c7bc89ace88034f",
+    "verification_mode": "local_capture_not_new_network_request",
+    "production_collection_enabled": false,
+    "report_updated_at_utc": "2026-09-30T18:00:43.412878+00:00",
+    "capture_sample_confirmed": true,
+    "verification_level": "cached_detail_id_and_monthly_base_price",
+    "capture_kind": "room_detail"
+  }
+]

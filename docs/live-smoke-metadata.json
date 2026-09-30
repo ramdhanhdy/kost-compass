@@ -1,0 +1,38 @@
+{
+  "experiment_kind": "bounded_live_smoke_test_not_accuracy_benchmark",
+  "model": "jev-1.13-free",
+  "sample_sources": [
+    "mamikos",
+    "pinhome"
+  ],
+  "final_listing_requests": 6,
+  "validated_typed_answers": 18,
+  "review_fields": 5,
+  "reported_final_batch_cost": "0",
+  "billing_currency": "not_declared_in_response",
+  "paid_fallback_used": false,
+  "base_rent_budget_idr": 2400000,
+  "demonstration_straight_line_radius_km": 3,
+  "budget_status_counts": {
+    "within_budget": 4,
+    "unknown": 2
+  },
+  "proximity_status_counts": {
+    "within_radius": 3,
+    "unknown": 3
+  },
+  "per_field_prediction_counts": {
+    "availability": {
+      "available": 6
+    },
+    "electricity": {
+      "excluded": 3,
+      "unknown": 3
+    },
+    "bathroom": {
+      "unknown": 2,
+      "private": 4
+    }
+  },
+  "interpretation": "Predictions label captured advertisements only; raw site data are not published and actual vacancy/bill-inclusive affordability are not verified"
+}

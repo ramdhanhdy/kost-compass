@@ -1,0 +1,60 @@
+[
+  {
+    "source": "infokost",
+    "robot_http": 200,
+    "pages": [
+      {
+        "url": "https://infokost.id/kost/jakarta-selatan",
+        "status": 200,
+        "title": "Kost Jakarta Selatan Harga Murah Hingga Eksklusif Terbaru 2026 ",
+        "bytes": 627988,
+        "sha256": "0ab116a881a2e9fc81a4d7d0080fc6c178e141b994d752ed3d352b8dff2bd5e7",
+        "observed_listing_links": 21,
+        "matching_capture_file_modified_at_utc": null
+      },
+      {
+        "url": "https://infokost.id/listings/cat-lovers-home-pulo-blok-m-superior-single-a-5558",
+        "status": 200,
+        "title": "Cat Lovers Home Pulo Blok M Superior Single A | Infokost",
+        "bytes": 276997,
+        "sha256": "14e4bc49512ab5a7305ab901e695833612b3ad9088d1e5efadefd8852a086b53",
+        "expected_price_found": true,
+        "matching_capture_file_modified_at_utc": null
+      }
+    ],
+    "sample_id": "infokost-refetch-1",
+    "verification_mode": "direct_public_http_readback",
+    "report_updated_at_utc": "2026-09-30T18:00:43.412878+00:00",
+    "network_readback_timestamp_utc": null,
+    "configured_request_delay_seconds": 1
+  },
+  {
+    "source": "sewakost",
+    "robot_http": 200,
+    "pages": [
+      {
+        "url": "https://www.sewakost.com/kost/jakarta/jakarta-selatan/",
+        "status": 200,
+        "title": "Kost Jakarta Selatan Terbaik - Sewakost",
+        "bytes": 198885,
+        "sha256": "d064936506781234f7c411aec233b43d925d764f5ea415cf62db72e831b3c645",
+        "observed_listing_links": 35,
+        "matching_capture_file_modified_at_utc": null
+      },
+      {
+        "url": "https://www.sewakost.com/kost/jakarta/jakarta-selatan/kost-rumah-praja-daerah-elit-arteri-pondok-ind-66347/",
+        "status": 200,
+        "title": "Kost Rumah Praja - daerah Elit - Arteri Pondok Ind - Kost Jakarta Selatan | SewaKost",
+        "bytes": 143592,
+        "sha256": "c999c01c277c3adcfb0e509f012689ace8ab744ea37755de5c7faaa94d62f979",
+        "expected_price_found": true,
+        "matching_capture_file_modified_at_utc": null
+      }
+    ],
+    "sample_id": "sewakost-refetch-2",
+    "verification_mode": "direct_public_http_readback",
+    "report_updated_at_utc": "2026-09-30T18:00:43.412878+00:00",
+    "network_readback_timestamp_utc": null,
+    "configured_request_delay_seconds": 10
+  }
+]

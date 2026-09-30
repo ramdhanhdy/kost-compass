@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kost-compass"
+version = "0.1.0"
+description = "Evidence-first multi-source kost discovery and typed AI classification"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = ["requests>=2.32,<3", "beautifulsoup4>=4.12,<5"]
+
+[project.scripts]
+kost-compass = "kost_compass.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

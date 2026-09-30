@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Schema illustration only—not a real housing listing",
+    "source": "schema_example",
+    "source_url": "https://example.invalid/not-real-housing",
+    "price_idr": null,
+    "price_period": "unknown",
+    "latitude": null,
+    "longitude": null,
+    "coordinate_precision": "unknown",
+    "room_text": "No source evidence supplied."
+  }
+]

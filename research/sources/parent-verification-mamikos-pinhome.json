@@ -1,0 +1,92 @@
+[
+  {
+    "source": "mamikos",
+    "sample_id": "mamikos-audit-sample-1",
+    "source_audited_at_utc": "2026-09-30T16:42:09.171718+00:00",
+    "capture_sha256": "6a454acbf1435d487aa246db498a4c2471b6985f2c1ea85ac8f6b63d15b029d2",
+    "verification_mode": "local_capture_not_new_network_request",
+    "captured_detail_fields_confirmed": true,
+    "production_collection_enabled": false,
+    "verified_fields": [
+      "title",
+      "displayed_price",
+      "advertised_availability"
+    ],
+    "report_updated_at_utc": "2026-09-30T18:00:43.412878+00:00"
+  },
+  {
+    "source": "mamikos",
+    "sample_id": "mamikos-audit-sample-2",
+    "source_audited_at_utc": "2026-09-30T16:42:09.171718+00:00",
+    "capture_sha256": "a15978017c7b7856e4a7942fb38fcc05755df7e9cac27aca04be24ee77b465e0",
+    "verification_mode": "local_capture_not_new_network_request",
+    "captured_detail_fields_confirmed": true,
+    "production_collection_enabled": false,
+    "verified_fields": [
+      "title",
+      "displayed_price",
+      "advertised_availability"
+    ],
+    "report_updated_at_utc": "2026-09-30T18:00:43.412878+00:00"
+  },
+  {
+    "source": "mamikos",
+    "sample_id": "mamikos-audit-sample-3",
+    "source_audited_at_utc": "2026-09-30T16:42:09.171718+00:00",
+    "capture_sha256": "61f4b8400ec70ec067c3dcb579689954ec3fed63cbc6d5bb3aabc4295b4a8675",
+    "verification_mode": "local_capture_not_new_network_request",
+    "captured_detail_fields_confirmed": true,
+    "production_collection_enabled": false,
+    "verified_fields": [
+      "title",
+      "displayed_price",
+      "advertised_availability"
+    ],
+    "report_updated_at_utc": "2026-09-30T18:00:43.412878+00:00"
+  },
+  {
+    "source": "pinhome",
+    "sample_id": "pinhome-audit-sample-1",
+    "source_audited_at_utc": "2026-09-30T16:42:09.171718+00:00",
+    "capture_sha256": "42aaaa8dbc9b34999c36cba341c10313c8d15b12a899c7814b99287bf5e35865",
+    "verification_mode": "local_capture_not_new_network_request",
+    "captured_detail_fields_confirmed": true,
+    "production_collection_enabled": false,
+    "verified_fields": [
+      "title",
+      "displayed_price",
+      "advertised_availability"
+    ],
+    "report_updated_at_utc": "2026-09-30T18:00:43.412878+00:00"
+  },
+  {
+    "source": "pinhome",
+    "sample_id": "pinhome-audit-sample-2",
+    "source_audited_at_utc": "2026-09-30T16:42:09.171718+00:00",
+    "capture_sha256": "130b9fd068f2f08f7ae847133937d3ddb95a8465c547f042246af11c94a5d5e7",
+    "verification_mode": "local_capture_not_new_network_request",
+    "captured_detail_fields_confirmed": true,
+    "production_collection_enabled": false,
+    "verified_fields": [
+      "title",
+      "displayed_price",
+      "advertised_availability"
+    ],
+    "report_updated_at_utc": "2026-09-30T18:00:43.412878+00:00"
+  },
+  {
+    "source": "pinhome",
+    "sample_id": "pinhome-audit-sample-3",
+    "source_audited_at_utc": "2026-09-30T16:42:09.171718+00:00",
+    "capture_sha256": "2ca3de3e753c3102189a45eb4b67a86cd96256de3da0b378b30145766363bfea",
+    "verification_mode": "local_capture_not_new_network_request",
+    "captured_detail_fields_confirmed": true,
+    "production_collection_enabled": false,
+    "verified_fields": [
+      "title",
+      "displayed_price",
+      "advertised_availability"
+    ],
+    "report_updated_at_utc": "2026-09-30T18:00:43.412878+00:00"
+  }
+]

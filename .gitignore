@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+data/raw/
+data/private/
+artifacts/
+*.log
+# Full third-party audits may contain protected text; publish only summaries.
+research/sources/*
+!research/sources/source-registry.json
+!research/sources/parent-verification*.json
